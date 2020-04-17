@@ -12,6 +12,8 @@ private:
     // data handles (not owned)
     GraphNode *_childNode;
     GraphNode *_parentNode;
+    //std::shared_ptr<GraphNode> _childNode;
+    //std::shared_ptr<GraphNode> _parentNode;
 
     // proprietary members
     int _id;
@@ -27,6 +29,7 @@ public:
     void SetChildNode(GraphNode *childNode);
     void SetParentNode(GraphNode *parentNode);
     GraphNode *GetChildNode() { return _childNode; }
+    //std::shared_ptr<GraphNode> GetChildNode() { return _childNode; }
     std::vector<std::string> GetKeywords() { return _keywords; }
 
     // proprietary functions

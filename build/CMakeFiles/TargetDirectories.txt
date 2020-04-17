@@ -1,0 +1,3 @@
+/home/jbarney/github/MemBot/build/CMakeFiles/rebuild_cache.dir
+/home/jbarney/github/MemBot/build/CMakeFiles/membot.dir
+/home/jbarney/github/MemBot/build/CMakeFiles/edit_cache.dir
